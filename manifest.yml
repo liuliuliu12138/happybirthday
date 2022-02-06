@@ -1,0 +1,6 @@
+---
+applications:
+- name: happy-birth
+  host: happy-birth
+  memory: 128M
+  health-check-type: none
