@@ -28,3 +28,7 @@ $(function () {
 	// });
 	// window.audio=$('audio')[0].play();
 })
+
+$('#dislike').click(function (event) {
+    alert("什么?!敢点这个!");
+});
