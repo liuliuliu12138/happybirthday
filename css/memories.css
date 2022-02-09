@@ -11,6 +11,32 @@
 	height: auto;
 	max-width: 100%; 
 }*/
+.music-play {
+	width: 20px;
+	height: 20px;
+	margin-right: -5px;
+	position: absolute;
+	right:5%;
+	top: 0;
+	opacity: 1;
+	/*background-color: #fff;*/
+	/*-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;*/
+	transition: all 1s;
+}
+.music-play-div{
+	background: #ee9ca7;
+    background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
+    background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
+    opacity: 0.9;
+    z-index: 1;
+}
+.music-play-btn{
+	background:url(../img/icons8-mute-64.png) no-repeat;
+}
 .bgcolor {
 	background: #ee9ca7;
     background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);

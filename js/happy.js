@@ -22,7 +22,12 @@ $(function () {
             opacity:"1",
             top:"85%"
         },2000);
+
+        // stop bubble audio after cake complete
+        var bubbleAuto = document.getElementById('bubble');
+        bubbleAuto.pause();
     },9000);
+
 	// $(window).click(function(){
 	// 	$('audio')[0].play();
 	// });
@@ -30,5 +35,5 @@ $(function () {
 })
 
 $('#dislike').click(function (event) {
-    alert("什么?!敢点这个!");
+    alert("什么?!敢点这个!big胆!");
 });
